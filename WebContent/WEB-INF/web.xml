@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>DocXp</display-name>
+  <welcome-file-list>
+  <welcome-file>dashboard.jsp</welcome-file>
+  <welcome-file>RegisterDoctor.jsp</welcome-file>
+  
+  </welcome-file-list>
+  
+   <servlet>
+    <servlet-name>RegisterController</servlet-name>
+    <servlet-class>com.project.healingtouch.controller.RegisterController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegisterController</servlet-name>
+    <url-pattern>/RegisterController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>LoginController</servlet-name>
+    <servlet-class>com.project.healingtouch.controller.LoginController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginController</servlet-name>
+    <url-pattern>/LoginController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>DoctorHomeController</servlet-name>
+    <servlet-class>com.project.healingtouch.controller.DoctorHomeController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DoctorHomeController</servlet-name>
+    <url-pattern>/DoctorHomeController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>PatientHomeController</servlet-name>
+    <servlet-class>com.project.healingtouch.controller.PatientHomeController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PatientHomeController</servlet-name>
+    <url-pattern>/PatientHomeController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>DocRegisterController</servlet-name>
+    <servlet-class>com.project.healingtouch.controller.DocRegisterController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DocRegisterController</servlet-name>
+    <url-pattern>/DocRegisterController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>BookAppointmentController</servlet-name>
+    <servlet-class>com.project.healingtouch.controller.BookAppointmentController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BookAppointmentController</servlet-name>
+    <url-pattern>/BookAppointmentController</url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <servlet-name>PatientProfileController</servlet-name>
+    <servlet-class>com.project.healingtouch.controller.PatientProfileController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PatientProfileController</servlet-name>
+    <url-pattern>/PatientProfileController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ProfileUpdateController</servlet-name>
+    <servlet-class>com.project.healingtouch.controller.ProfileUpdateController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ProfileUpdateController</servlet-name>
+    <url-pattern>/ProfileUpdateController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ChangePasswordController</servlet-name>
+    <servlet-class>com.project.healingtouch.controller.ChangePasswordController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ChangePasswordController</servlet-name>
+    <url-pattern>/ChangePasswordController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>MailServlet</servlet-name>
+    <servlet-class>com.project.healingtouch.controller.MailServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MailServlet</servlet-name>
+    <url-pattern>/MailServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>DoctorUpdateController</servlet-name>
+    <servlet-class>com.project.healingtouch.controller.DoctorUpdateController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DoctorUpdateController</servlet-name>
+    <url-pattern>/DoctorUpdateController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>DoctorProfileController</servlet-name>
+    <servlet-class>com.project.healingtouch.controller.DoctorProfileController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DoctorProfileController</servlet-name>
+    <url-pattern>/DoctorProfileController</url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <servlet-name>DoctorListofAppointmnetController</servlet-name>
+    <servlet-class>com.project.healingtouch.controller.DoctorListofAppointmnetController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DoctorListofAppointmnetController</servlet-name>
+    <url-pattern>/DoctorListofAppointmnetController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>DoctorListOfAppointmentSortingController</servlet-name>
+    <servlet-class>com.project.healingtouch.controller.DoctorListOfAppointmentSortingController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DoctorListOfAppointmentSortingController</servlet-name>
+    <url-pattern>/DoctorListOfAppointmentSortingController</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>PatientMyAppointmentController</servlet-name>
+    <servlet-class>com.project.healingtouch.controller.PatientMyAppointmentController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PatientMyAppointmentController</servlet-name>
+    <url-pattern>/PatientMyAppointmentController</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>HospiatlController</servlet-name>
+    <servlet-class>com.project.healingtouch.controller.HospitalController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HospiatlController</servlet-name>
+    <url-pattern>/HospiatlController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>DoctorAppointmentRejectionController</servlet-name>
+    <servlet-class>com.project.healingtouch.controller.DoctorAppointmentRejectionController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DoctorAppointmentRejectionController</servlet-name>
+    <url-pattern>/DoctorAppointmentRejectionController</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>PatientFinHospitalController</servlet-name>
+    <servlet-class>com.project.healingtouch.controller.PatientFinHospitalController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PatientFinHospitalController</servlet-name>
+    <url-pattern>/PatientFinHospitalController</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>PatientDoctorSpecialityController</servlet-name>
+    <servlet-class>com.project.healingtouch.controller.PatientDoctorSpecialityController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PatientDoctorSpecialityController</servlet-name>
+    <url-pattern>/PatientDoctorSpecialityController</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>DoctorAppointmentConfirmController</servlet-name>
+    <servlet-class>com.project.healingtouch.controller.DoctorAppointmentConfirmController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DoctorAppointmentConfirmController</servlet-name>
+    <url-pattern>/DoctorAppointmentConfirmController</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>DoctorMyScheduleController</servlet-name>
+    <servlet-class>com.project.healingtouch.controller.DoctorMyScheduleController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DoctorMyScheduleController</servlet-name>
+    <url-pattern>/DoctorMyScheduleController</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>PatientHospitalDetailsController</servlet-name>
+    <servlet-class>com.project.healingtouch.controller.PatientHospitalDetailsController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PatientHospitalDetailsController</servlet-name>
+    <url-pattern>/PatientHospitalDetailsController</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>SpinnerCityController</servlet-name>
+    <servlet-class>com.project.healingtouch.controller.SpinnerCityController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SpinnerCityController</servlet-name>
+    <url-pattern>/SpinnerCityController</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>PatientEmergencyContactFromController</servlet-name>
+    <servlet-class>com.project.healingtouch.controller.PatientEmergencyContactFromController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PatientEmergencyContactFromController</servlet-name>
+    <url-pattern>/PatientEmergencyContactFromController</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>PatientEmergencyContactController</servlet-name>
+    <servlet-class>com.project.healingtouch.controller.PatientEmergencyContactController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PatientEmergencyContactController</servlet-name>
+    <url-pattern>/PatientEmergencyContactController</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>PatientEmergencyRejectContactController</servlet-name>
+    <servlet-class>com.project.healingtouch.controller.PatientEmergencyRejectContactController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PatientEmergencyRejectContactController</servlet-name>
+    <url-pattern>/PatientEmergencyRejectContactController</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>SpinnerController</servlet-name>
+    <servlet-class>com.project.healingtouch.controller.SpinnerController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SpinnerController</servlet-name>
+    <url-pattern>/SpinnerController</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>SpinnerHospitalController</servlet-name>
+    <servlet-class>com.project.healingtouch.controller.SpinnerHospitalController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SpinnerHospitalController</servlet-name>
+    <url-pattern>/SpinnerHospitalController</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>SpinnerDoctorController</servlet-name>
+    <servlet-class>com.project.healingtouch.controller.SpinnerDoctorController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SpinnerDoctorController</servlet-name>
+    <url-pattern>/SpinnerDoctorController</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>NearByHospitalController</servlet-name>
+    <servlet-class>com.project.healingtouch.controller.NearByHospitalController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>NearByHospitalController</servlet-name>
+    <url-pattern>/NearByHospitalController</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>DoctorNavigationDrawerDataController</servlet-name>
+    <servlet-class>com.project.healingtouch.controller.DoctorNavigationDrawerDataController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DoctorNavigationDrawerDataController</servlet-name>
+    <url-pattern>/DoctorNavigationDrawerDataController</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>PatientNavigationDrawerDataController</servlet-name>
+    <servlet-class>com.project.healingtouch.controller.PatientNavigationDrawerDataController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PatientNavigationDrawerDataController</servlet-name>
+    <url-pattern>/PatientNavigationDrawerDataController</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>SpinnerSpecialityController</servlet-name>
+    <servlet-class>com.project.healingtouch.controller.SpinnerSpecialityController</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>SpinnerSpecialityController</servlet-name>
+    <url-pattern>/SpinnerSpecialityController</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>BookAppointmentDoctorDetailsController</servlet-name>
+    <servlet-class>com.project.healingtouch.controller.BookAppointmentDoctorDetailsController</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>BookAppointmentDoctorDetailsController</servlet-name>
+    <url-pattern>/BookAppointmentDoctorDetailsController</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>NotificationController</servlet-name>
+    <servlet-class>com.project.healingtouch.controller.NotificationController</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>NotificationController</servlet-name>
+    <url-pattern>/NotificationController</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>SendNotificationController</servlet-name>
+    <servlet-class>com.project.healingtouch.controller.SendNotificationController</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>SendNotificationController</servlet-name>
+    <url-pattern>/SendNotificationController</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>PatientFindHospitalByCityController</servlet-name>
+    <servlet-class>com.project.healingtouch.controller.PatientFindHospitalByCityController</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>PatientFindHospitalByCityController</servlet-name>
+    <url-pattern>/PatientFindHospitalByCityController</url-pattern>
+</servlet-mapping>
+</web-app>
